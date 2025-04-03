@@ -1,0 +1,180 @@
+.drop-down-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    gap: 30px;
+    transition: transform 0.4s ease;
+}
+
+.select-wrapper {
+    border-bottom: 1px solid #D6D6D6;
+    cursor: pointer;
+    width: 160px;
+}
+
+select {
+    outline: none;
+    box-shadow: none;
+    color: #333333;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.jews-menu-list1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D6D6D6;
+    margin-top: 95px;
+    padding-bottom: 95px;
+}
+
+.jews-menu-list2 {
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 95px;
+}
+
+.subtitle {
+    display: flex;
+    color: #333333;
+    padding-top: 20px;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.subtitle2 {
+    display: flex;
+    color: #333333;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.goods-card-price {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 200;
+    border: 2px solid #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #333333;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 125px;
+}
+
+.goods-card {
+    display: flex;
+    justify-content: center;
+}
+
+.button-show-more {
+    display: flex;
+    justify-content: center;
+}
+
+.show-more {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: uppercase;
+    border: 2px solid #333333;
+    color: #ffffff;
+    padding: 15px 35px;
+    background-color: #333333;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 227px;
+}
+
+.show-more:hover {
+    transform: scale(1.1);
+}
+
+.blog .container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.scroll-container {
+    margin-top: 100px;
+    width: 540px;
+    height: 240px;
+    line-height: 150%;
+    font-size: 16px;
+    font-weight: 300;
+    overflow-y: auto;
+    position: relative;
+    border: none;
+    background: white;
+    text-align: left;
+}
+
+.fade-effect {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    bottom: 10px;
+    height: 170px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.344), rgb(255, 255, 255));
+    pointer-events: none;
+}
+
+.read-more {
+    position: sticky;
+    bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    z-index: 1;
+    border: none;
+    border-bottom: 2px dashed #333333;
+    padding: 0px 5px;
+    background-color: transparent;
+    color: #333333;
+    cursor: pointer;
+    max-width: 212px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.icons-desc-pic {
+    margin: 150px 0px 150px 112px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.icons-desc {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 150%;
+    width: 127px;
+    height: 133px;
+}
+
+.icons-desc img {
+    max-width: 70px;
+    max-height: 70px;
+}
